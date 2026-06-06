@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,7 +19,7 @@
   <!--navabar starts here-->
   <nav class="navbar navbar-expand-lg mb-0">
     <div class="container ema">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="">
         <img src="images/logo4.png" alt="logo" class="navbar-Logo">
       </a>
       <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
@@ -29,22 +30,22 @@
       <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto mb-2 mb-lg-0 gp-5">
           <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+            <a class="nav-link active text-white" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">About</a>
+            <a class="nav-link text-white" href="/about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white " href="#">Portfolio</a>
+            <a class="nav-link text-white " href="/portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Work</a>
+            <a class="nav-link text-white" href="/work.html">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Blog</a>
+            <a class="nav-link text-white" href="blog.html">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Contact</a>
+            <a class="nav-link text-white" href="contact.html">Contact</a>
           </li>
         </ul>
         <a class="btn mybtn rounded-0 text-uppercase bg-green" href="#" role="button">Let's Talk</a>
@@ -61,7 +62,7 @@
             <span class="text-white text-uppercase main-txt">hello i'm</span>
             <h1 class="text-white fw-bold"> A web designer & <span class="txt-green">Developer</span></h1>
             <p class="txt-gray my-4 para">
-              hi i am Emmanuel O, passionate web developer based in Enugu,NIgeria. Welcome to my portfolio
+              hi i am Emmanuel O, A passionate web developer based in Enugu,NIgeria. Welcome to my portfolio
             </p>
             <a class="btn mybtn rounded-0 text-uppercase bg-green " href="#" role="button">View Portfolio</a>
           </div>
@@ -102,7 +103,7 @@
     </section>
 
     <section class="section-container">
-      <div class="container text-center">
+      <div class="container text-center amaka">
         <span class="text-white text-uppercase main-txt">what i can do for you</span>
         <h2 class="txt-green fw-semibold">Services</h2>
         <div class="row mt-5 gp-4 gap-lg-0">
@@ -149,12 +150,22 @@
       </div>
     </section>
 
-    <section class="section-container py-4 ">
+    <section class="section-container py-5">
       <div class="container text-center">
         <span class="text-white text-uppercase main-txt">some of my recent projects</span>
         <h2 class="txt-green fw-semibold">Portfolio</h2>
-        <div class="row justify-content-center mt-5 gap-3">
-          <div class="col-lg-4 mycard">
+        <div class="row justify-content-center mt-5 gap-5">
+          <div class="col-lg-4 mycard glow">
+            <div class="card bg-dark-blue text-center ">
+              <img src="images/viewscape.png" class="card-img-top" alt="ViewScape">
+              <div class="card-body">
+                <h5 class="card-title text-white">ViewScape</h5>
+                <p class="card-text txt-gray">Building cutting-edge websites with responsive design,intuitive user
+                  interfaces,and powerful functionality to elevate online presence and engagement</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mycard glow">
             <div class="card bg-dark-blue text-center">
               <img src="images/viewscape.png" class="card-img-top" alt="ViewScape">
               <div class="card-body">
@@ -164,17 +175,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 mycard">
-            <div class="card bg-dark-blue text-center">
-              <img src="images/viewscape.png" class="card-img-top" alt="ViewScape">
-              <div class="card-body">
-                <h5 class="card-title text-white">ViewScape</h5>
-                <p class="card-text txt-gray">Building cutting-edge websites with responsive design,intuitive user
-                  interfaces,and powerful functionality to elevate online presence and engagement</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 mycard">
+          <div class="col-lg-4 mycard glow">
             <div class="card bg-dark-blue text-center">
               <img src="images/viewscape.png" class="card-img-top" alt="ViewScape">
               <div class="card-body">
@@ -185,8 +186,8 @@
             </div>
           </div>
         </div>
-        <div class="row justify-content-center mt-5 gap-3">
-          <div class="col-lg-4 mycard">
+        <div class="row justify-content-center mt-5 gap-5">
+          <div class="col-lg-4  mycard glow ">
             <div class="card bg-dark-blue text-center">
               <img src="images/viewscape.png" class="card-img-top" alt="ViewScape">
               <div class="card-body">
@@ -196,17 +197,17 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 mycard">
-            <div class="card bg-dark-blue text-center">
+          <div class="col-lg-4 mycard glow">
+            <div class="card bg-dark-blue text-center ">
               <img src="images/viewscape.png" class="card-img-top" alt="ViewScape">
               <div class="card-body">
-                <h5 class="card-title text-white">ViewScape</h5>
+                <h5 class="card-title text-white ">ViewScape</h5>
                 <p class="card-text txt-gray">Building cutting-edge websites with responsive design,intuitive user
                   interfaces,and powerful functionality to elevate online presence and engagement</p>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 mycard">
+          <div class="col-lg-4 mycard glow">
             <div class="card bg-dark-blue text-center">
               <img src="images/viewscape.png" class="card-img-top" alt="ViewScape">
               <div class="card-body">
@@ -220,16 +221,223 @@
       </div>
     </section>
 
+
+    <section class="section-container">
+      <div class="container text-center">
+        <span class="text-white text-uppercase main-txt">client reviews</span>
+        <h2 class="txt-green fw-semibold">Testimonials</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper mt-5">
+            <div class="swiper-slide bg-dark-blue p-4 rounded-3">1
+              <div class="row">
+                <div class="col-lg-2">
+                  <div class="profile">
+                    <img src="/images/imaindias.jpg" alt="cli">
+                  </div>
+                </div>
+                <div class="col-lg-10 text-start">
+                  <h5 class="text-white">Ibrahim Imran</h5>
+                  <p class="text-white">Designer</p>
+                </div>
+              </div>
+              <div class="row">
+                <p class="txt-gray text-start">
+                  Working with G-tech was a really smooth experience. He was very professional, understood exactly
+                  what I needed, and delivered everything on time. 
+              </div>
+            </div>
+            <div class="swiper-slide bg-dark-blue p-4 rounded-3">1
+              <div class="row">
+                <div class="col-lg-2">
+                  <div class="profile">
+                    <img src="/images/WhatsApp Image PM.jpeg" alt="cli">
+                  </div>
+                </div>
+                <div class="col-lg-10 text-start">
+                  <h5 class="text-white">Thaddeus Chidera Ugwu</h5>
+                  <p class="text-white">Developer</p>
+                </div>
+              </div>
+              <div class="row">
+                <p class="txt-gray text-start">
+                  G-tech was very easy to work with. He understood what I wanted quickly and delivered exactly that. The whole process was smooth and stress-free with zero time wasted.
+              </div>
+            </div>
+            <div class="swiper-slide bg-dark-blue p-4 rounded-3">1
+              <div class="row">
+                <div class="col-lg-2">
+                  <div class="profile">
+                    <img src="/images/alex.jpg" alt="cli">
+                  </div>
+                </div>
+                <div class="col-lg-10 text-start">
+                  <h5 class="text-white">Alex Cortler</h5>
+                  <p class="text-white">Designer</p>
+                </div>
+              </div>
+              <div class="row">
+                <p class="txt-gray text-start">
+                 he didn’t just execute my idea he improved it. He brought smart suggestions that made the final product more efficient and user-friendly. ”
+              </div>
+            </div>
+            <div class="swiper-slide bg-dark-blue p-4 rounded-3">1
+              <div class="row">
+                <div class="col-lg-2">
+                  <div class="profile">
+                    <img src="/images/imal.jpg" alt="cli">
+                  </div>
+                </div>
+                <div class="col-lg-10 text-start">
+                  <h5 class="text-white">Ritta Baddoura</h5>
+                  <p class="text-white">Designer</p>
+                </div>
+              </div>
+              <div class="row">
+                <p class="txt-gray text-start">
+                 he handled the project from start to finish. He was consistent with updates, open to feedback, and delivered clean, well-structured work. His problem-solving skills really stood out.
+              </div>
+            </div>
+            <div class="swiper-slide bg-dark-blue p-4 rounded-3">1
+              <div class="row">
+                <div class="col-lg-2">
+                  <div class="profile">
+                    <img src="/images/images carter.jpg" alt="cli">
+                  </div>
+                </div>
+                <div class="col-lg-10 text-start">
+                  <h5 class="text-white">Jeff Carter</h5>
+                  <p class="text-white">Digital Marketer</p>
+                </div>
+              </div>
+              <div class="row">
+                <p class="txt-gray text-start">
+                 Reliable, skilled, and professional. G-tech delivered exactly what was needed and exceeded expectations I’d definitely recommend him to anyone who values top-tier, reliable work.
+              </div>
+            </div>
+          </div>
+        
+
+          <div class="control mt-5 d-flex justify-content-center gap-4">
+            <i class="fa-solid fa-arrow-left bg-green prev"></i>
+            <i class="fa-solid fa-arrow-right bg-green next"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section-container py-5">
+      <div class="container text-center">
+        <span class="text-white text-uppercase main-txt">recent blogs</span>
+        <h2 class="txt-green fw-semibold">Blog</h2>
+        <div class="row justify-content-center mt-5 gap-3">
+          <div class="col-lg-4 blog-card glow ">
+            <div class="card bg-dark-blue text-center ">
+              <img src="images/174creative.jpg" class="card-img-top" alt="ViewScape">
+              <div class="card-body">
+                <h5 class="card-title text-white">Programming Perspectives</h5>
+                <p class="card-text txt-gray">Programming Perspectives provides expert tutorials and insights to elevate
+                  coding skills and keep up with tech trends.</p>
+                <a class="btn mybtn rounded-0 text-uppercase bg-green" href="#" role="button">View Blog</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 blog-card glow ">
+            <div class="card bg-dark-blue text-center">
+              <img src="images/creative.jpg" class="card-img-top" alt="ViewScape">
+              <div class="card-body">
+                <h5 class="card-title text-white">Web Development & AI</h5>
+                <p class="card-text txt-gray">Web Development & AI explores trends,tutorials, and innovations in web
+                  tech and artificial intelligence for developers.</p>
+                <a class="btn mybtn rounded-0 text-uppercase bg-green" href="#" role="button">View Blog</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 blog-card glow">
+            <div class="card bg-dark-blue text-center">
+              <img src="images/blog2.jpg" class="card-img-top" alt="ViewScape">
+              <div class="card-body">
+                <h5 class="card-title text-white">Design Patterns & Principles</h5>
+                <p class="card-text txt-gray">Explore essential design patterns and principles to enhance code
+                  quality,maintainability, and scalability effectively.</p>
+                <a class="btn mybtn rounded-0 text-uppercase bg-green" href="#" role="button">View Blog</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section-container">
+      <div class="container text-center">
+        <span class="text-white text-uppercase main-txt">Get In touch</span>
+        <h2 class="txt-green fw-semibold">Contact</h2>
+
+        <form class="bg-green mx-auto px-4 py-5 rounded-3 mt-5 form">
+          <div class="mb-4">
+            <input type="email" class="form-control py-2" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Your Name">
+          </div>
+          <div class="mb-4">
+            <input type="password" class="form-control py-2" id="exampleInputPassword1" placeholder="Your Email">
+          </div>
+          <div class="mb-4">
+            <input type="email" class="form-control py-2" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Your Subject">
+          </div>
+          <div class="mb-4">
+            <textarea class="form-control" placeholder="Write your message" id="floatingTextarea"></textarea>
+          </div>
+          <button type="submit" class="btn mybtn text-white rounded-0 text-uppercase bg-black ">Send message</button>
+        </form>
+
+      </div>
+    </section>
   </main>
 
+  <!--footer starts here-->
+  <footer class="my-3">
+    <div class="container">
+      <div class="line"></div>
+      <div class="row mt-3 gap-4 gap-lg-0 ">
+        <div class="col-lg-6 d-flex justify-content-sm-start justify-content-center">
+          <a href="#" class="ms-3">
+            <i class="fa-brands fa-facebook-f txt-green fs-5"></i>
+          </a>
+          <a href="#" class="ms-3">
+            <i class="fa-brands fa-twitter txt-green fs-5"></i>
+          </a>
+          <a href="#" class="ms-3">
+            <i class="fa-brands fa-instagram txt-green fs-5"></i>
+          </a>
+          <a href="#" class="ms-3">
+            <i class="fa-brands fa-linkedin txt-green fs-5"></i>
+          </a>
+        </div>
+        <div class="col-lg-6 ">
+          <p class="txt-gray text-lg-end text-center">
+            Copyright &copy; 2026-All rights are reserved by G-tech
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
+
+
+
+
+
+
+  <script defer src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
     integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
     crossorigin="anonymous"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 </body>
 
 </html>
