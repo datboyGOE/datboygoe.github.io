@@ -289,3 +289,8 @@ form{
     padding: .3rem .3rem;
     border-radius: 55%;
 }
+.form{
+    width: 100%;
+    max-width: 700px;
+    box-sizing: border-box;
+}
